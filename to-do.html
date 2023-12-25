@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <h1>Sign in</h1>
+    <form action="/submit" method="post">
+        <div class="circle"><img src="hello.gif" alt="hello" height="80"></div>
+        <div class="mess">Hey You,</div>
+        <div class="mess">great to see you again!</div>
+      
+        <label for="email">EMAIL ADDRESS</label>
+        <input type="email" id="email" name="EMAIL ADDRESS" required>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Sign In">
+
+        <!-- Placeholder for Google and Facebook buttons -->
+        <div class="social-login">
+            <button class="google-btn"><img src="google.webp" alt="" height="25"></button>
+            <button class="facebook-btn"><img src="facebook.png" alt=""></button>
+        </div>
+    </form>
+</body>
+</html>
